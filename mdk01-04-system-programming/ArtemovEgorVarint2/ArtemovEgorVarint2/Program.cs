@@ -65,6 +65,48 @@ class Program
             Console.WriteLine($"=== ПРОЦЕСС ЗАВЕРШЁН ===");
             Console.WriteLine($"Код выхода: {exitCode} (0x{exitCode:X})");
             Console.WriteLine($"Время завершения: {DateTime.Now}");
+if (!string.IsNullOrEmpty(output))
+            {
+                Console.WriteLine("\n--- ВЫВОД ПРОГРАММЫ (STDOUT) ---");
+                Console.WriteLine(output.Trim());
+            }
 
-}
+            if (!string.IsNullOrEmpty(error))
+            {
+                Console.WriteLine("\n--- ОШИБКИ (STDERR) ---");
+                Console.WriteLine(error.Trim());
+            }
+
+            string exitMessage = $"[{DateTime.Now}] Завершён. Код выхода: {exitCode}";
+            File.AppendAllText(logPath, exitMessage + Environment.NewLine);
+
+            if (!string.IsNullOrEmpty(output))
+                File.AppendAllText(logPath, $"[STDOUT] {output.Trim()}{Environment.NewLine}");
+            if (!string.IsNullOrEmpty(error))
+                File.AppendAllText(logPath, $"[STDERR] {error.Trim()}{Environment.NewLine}");
+
+            Console.WriteLine($"\nЛог сохранён в: {Path.GetFullPath(logPath)}");
+
+            Environment.ExitCode = exitCode;
+        }
+        catch (Exception ex)
+        {
+            string errorMessage = $"[{DateTime.Now}] ОШИБКА: {ex.Message}";
+            Console.WriteLine($"\n!!! {errorMessage}");
+
+            if (!File.Exists(logPath))
+            {
+                File.WriteAllText(logPath, errorMessage + Environment.NewLine);
+            }
+            else
+            {
+                File.AppendAllText(logPath, errorMessage + Environment.NewLine);
+            }
+
+            Environment.ExitCode = 1;
+        }
+
+        Console.WriteLine("\nНажмите любую клавишу для выхода...");
+        Console.ReadKey();
     }
+}
