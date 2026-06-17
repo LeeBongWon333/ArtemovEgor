@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ArtemovEgorVarint2/1.0.0": {
+        "runtime": {
+          "ArtemovEgorVarint2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArtemovEgorVarint2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

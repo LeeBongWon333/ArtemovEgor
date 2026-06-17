@@ -1,0 +1,14 @@
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\bin\Debug\net10.0\ArtemovEgorVarint2.exe
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\bin\Debug\net10.0\ArtemovEgorVarint2.deps.json
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\bin\Debug\net10.0\ArtemovEgorVarint2.runtimeconfig.json
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\bin\Debug\net10.0\ArtemovEgorVarint2.dll
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\bin\Debug\net10.0\ArtemovEgorVarint2.pdb
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ArtemovEgorVarint2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ArtemovEgorVarint2.AssemblyInfoInputs.cache
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ArtemovEgorVarint2.AssemblyInfo.cs
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ArtemovEgorVarint2.csproj.CoreCompileInputs.cache
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ArtemovEgorVarint2.dll
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\refint\ArtemovEgorVarint2.dll
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ArtemovEgorVarint2.pdb
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ArtemovEgorVarint2.genruntimeconfig.cache
+C:\Users\Егор\source\repos\ArtemovEgorVarint2\ArtemovEgorVarint2\obj\Debug\net10.0\ref\ArtemovEgorVarint2.dll
